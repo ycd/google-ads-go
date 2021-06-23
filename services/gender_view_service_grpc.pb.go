@@ -4,7 +4,7 @@ package services
 
 import (
 	context "context"
-	resources "github.com/ercling/google-ads-go/resources"
+	resources "github.com/ycd/google-ads-go/resources"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

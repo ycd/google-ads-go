@@ -21,7 +21,7 @@
 package common
 
 import (
-	enums "github.com/ercling/google-ads-go/enums"
+	enums "github.com/ycd/google-ads-go/enums"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

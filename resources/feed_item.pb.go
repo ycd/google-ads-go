@@ -21,9 +21,9 @@
 package resources
 
 import (
-	common "github.com/ercling/google-ads-go/common"
-	enums "github.com/ercling/google-ads-go/enums"
-	errors "github.com/ercling/google-ads-go/errors"
+	common "github.com/ycd/google-ads-go/common"
+	enums "github.com/ycd/google-ads-go/enums"
+	errors "github.com/ycd/google-ads-go/errors"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

@@ -21,7 +21,7 @@
 package services
 
 import (
-	resources "github.com/ercling/google-ads-go/resources"
+	resources "github.com/ycd/google-ads-go/resources"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	status "google.golang.org/genproto/googleapis/rpc/status"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"

@@ -21,8 +21,8 @@
 package services
 
 import (
-	common "github.com/ercling/google-ads-go/common"
-	resources "github.com/ercling/google-ads-go/resources"
+	common "github.com/ycd/google-ads-go/common"
+	resources "github.com/ycd/google-ads-go/resources"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	longrunning "google.golang.org/genproto/googleapis/longrunning"
 	status "google.golang.org/genproto/googleapis/rpc/status"
