@@ -2,7 +2,7 @@ ADS_VERSION=v8
 PROTO_ROOT_DIR=googleapis/
 PROTO_SRC_DIR=google/ads/googleads/$(ADS_VERSION)/**/*.proto
 # PROTO_OUT_DIR=$$GOPATH/src/github.com/kritzware/google-ads-go/
-PROTO_OUT_DIR=$$HOME/workspace/gjg/google-ads-go/
+PROTO_OUT_DIR=${HOME}/workspace/gjg/google-ads-go/
 PKG_PATH=paths=source_relative
 PROTOC_GO_ARGS=--go_out=$(PROTO_OUT_DIR) --go_opt=paths=source_relative --go-grpc_out=$(PROTO_OUT_DIR) --go-grpc_opt=paths=source_relative
 
@@ -23,6 +23,7 @@ test:
 
 .SILENT protos: clean-protos clean-gen-protos
 	echo "converting protos for version $(ADS_VERSION)"
+	echo $(PROTO_ROOT_DIR)$(PROTO_SRC_DIR)
 	for file in $(PROTO_ROOT_DIR)$(PROTO_SRC_DIR); do \
 		echo "converting proto $$(basename $$file)"; \
 		protoc --proto_path=$(PROTO_ROOT_DIR) $(PROTOC_GO_ARGS) $$file; \
