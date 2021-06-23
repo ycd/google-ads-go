@@ -24,7 +24,7 @@ test:
 .SILENT protos: clean-protos clean-gen-protos
 	echo "converting protos for version $(ADS_VERSION)"
 	echo $(PROTO_ROOT_DIR)$(PROTO_SRC_DIR)
-	for file in $(ls -R googleapis/google/ads/googleads/v8/**/*.proto); do \
+	@for file in $(shell ls -R googleapis/google/ads/googleads/v8/**/*.proto); do \
 		echo "converting proto $$(basename $$file)"; \
 		protoc --proto_path=$(PROTO_ROOT_DIR) $(PROTOC_GO_ARGS) $$file; \
 	done; \
