@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kritzware/google-ads-go/ads"
-	"github.com/kritzware/google-ads-go/auth"
+	"github.com/ycd/google-ads-go/ads"
+	"github.com/ycd/google-ads-go/auth"
 )
 
 var (

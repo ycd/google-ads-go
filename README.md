@@ -13,9 +13,9 @@
 ## Installation
 To install, simply run:
 ```bash
-$ go get -d github.com/kritzware/google-ads-go
+$ go get -d github.com/ycd/google-ads-go
 ```
-Make sure your PATH includes the $GOPATH/bin directory if you want to use the [CLI utils](https://github.com/kritzware/google-ads-go#cli):
+Make sure your PATH includes the $GOPATH/bin directory if you want to use the [CLI utils](https://github.com/ycd/google-ads-go#cli):
 ```bash
 export PATH=$PATH:$GOPATH/bin
 ````
@@ -27,8 +27,8 @@ package main
 import (
   "fmt"
 
-  "github.com/kritzware/google-ads-go/ads"
-  "github.com/kritzware/google-ads-go/services"
+  "github.com/ycd/google-ads-go/ads"
+  "github.com/ycd/google-ads-go/services"
 )
 
 func main() {

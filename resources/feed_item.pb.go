@@ -7,9 +7,9 @@ import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
-	common "github.com/kritzware/google-ads-go/common"
-	enums "github.com/kritzware/google-ads-go/enums"
-	errors "github.com/kritzware/google-ads-go/errors"
+	common "github.com/ycd/google-ads-go/common"
+	enums "github.com/ycd/google-ads-go/enums"
+	errors "github.com/ycd/google-ads-go/errors"
 	math "math"
 )
 
