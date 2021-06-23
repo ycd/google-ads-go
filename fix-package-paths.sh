@@ -23,5 +23,5 @@ for file in ./google/ads/googleads/v8/**/*.pb.go; do
         fix_package_name $file $p
     done
 done
-mv ./googleads/google/ads/googleads/v8/* ./
+mv ./google/ads/googleads/v8/* ./
 echo "finished fixing packages"

@@ -1,6 +1,6 @@
 ADS_VERSION=v8
 PROTO_ROOT_DIR=googleapis/
-PROTO_SRC_DIR=google/ads/googleads/$(ADS_VERSION)/**/*.proto
+PROTO_SRC_DIR=/google/ads/googleads/$(ADS_VERSION)/**/*.proto
 # PROTO_OUT_DIR=$$GOPATH/src/github.com/kritzware/google-ads-go/
 PROTO_OUT_DIR=${HOME}/workspace/gjg/google-ads-go/
 PKG_PATH=paths=source_relative
