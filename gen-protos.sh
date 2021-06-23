@@ -16,7 +16,7 @@ function compile_protos() {
         echo "converting proto $(basename $file)"
         FOLDER_PATH=$(dirname $file)
         PACKAGE=$(basename $FOLDER_PATH)
-        # GO_PACKAGE="\"github.com/ycd/google-ads-go/protos/google/ads/googleads/v0/$PACKAGE\""
+        # GO_PACKAGE="\"github.com/kritzware/google-ads-go/protos/google/ads/googleads/v0/$PACKAGE\""
         # echo "option go_package = $GO_PACKAGE;" >> $file
         protoc -I=$PROTO_ROOT_DIR $PROTOC_GO_ARGS $file
     done

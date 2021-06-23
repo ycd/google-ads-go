@@ -1,6 +1,6 @@
 # google-ads-go
 
-| Google Ads API version 	| [`v0_7_0`](https://developers.google.com/google-ads/api/docs/release-notes#070_2019-01-30) |
+| Google Ads API version 	| [`v7.0`](https://developers.google.com/google-ads/api/docs/release-notes#v70_2021-04-28) |
 |-|:-:|
 | Build | [![CircleCI](https://circleci.com/gh/kritzware/google-ads-go.svg?style=shield)](https://circleci.com/gh/kritzware/google-ads-go) |
 | Release | ![Release](https://img.shields.io/github/release/kritzware/google-ads-go.svg) |
@@ -13,9 +13,9 @@
 ## Installation
 To install, simply run:
 ```bash
-$ go get -d github.com/ycd/google-ads-go
+$ go get -d github.com/kritzware/google-ads-go
 ```
-Make sure your PATH includes the $GOPATH/bin directory if you want to use the [CLI utils](https://github.com/ycd/google-ads-go#cli):
+Make sure your PATH includes the $GOPATH/bin directory if you want to use the [CLI utils](https://github.com/kritzware/google-ads-go#cli):
 ```bash
 export PATH=$PATH:$GOPATH/bin
 ````
@@ -27,8 +27,8 @@ package main
 import (
   "fmt"
 
-  "github.com/ycd/google-ads-go/ads"
-  "github.com/ycd/google-ads-go/services"
+  "github.com/kritzware/google-ads-go/ads"
+  "github.com/kritzware/google-ads-go/services"
 )
 
 func main() {
